@@ -17,9 +17,8 @@ maxOfTwoNumbers(7,3);
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
 function findLongestWord(array) {
-  if (array.length === 0){
-    return null
-  }else if (array.length===1){
+  if (array.length === 0) return null;
+  else if (array.length===1){
     return array[0]
   }
   let longestWord = "";
@@ -38,9 +37,8 @@ function findLongestWord(array) {
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
 function sumNumbers(numbers) {
-  if (numbers.length===0){
-    return 0;
-  }
+  if (!numbers.length) return 0;
+  
   let sum = 0;
   for (let i = 0; i<numbers.length ; i++){
     sum += numbers[i]
@@ -115,10 +113,27 @@ function averageWordLength(wordsArr) {
 const mixedArr2 = [6, 12, 'miami', 1, true, 'barca', '200', 'lisboa', 8, 10];
 
 function avg(array) {
-  if (array.length ===0){
-    return null
-  }
+  if (array.length ===0)return null;
+  
   let totalSum = 0;
+
+/*   for (let i=0; i < arr.length; i++) {
+    let el = arr[i];
+     switch (typeof el){
+      case 'string':
+        sumTotal += el.length;
+        break
+      case 'number':
+        sumTotal += el
+        break
+      case 'boolean':
+        if (el) sumTotal+= 1;
+        // else sumTotal +=0;        
+        break 
+        default:
+          throw new Error ("Unsupported data type sir or ma'am")
+     }
+    } */
   for(let i = 0; i<array.length ; i++){
     if(typeof array[i]  == "boolean"){
       if( array[i]== true){
@@ -150,9 +165,8 @@ const wordsUnique = [
 ];
 
 function uniquifyArray(array) {
-  if (array.length ===0){
-    return null
-  }
+  if (array.length ===0) return null;
+  
 
   let uniqueArray = [];
   
