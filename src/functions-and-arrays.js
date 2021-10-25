@@ -195,6 +195,7 @@ function doesWordExist(array, word) {
   return false
 
 }
+console.log(doesWordExist(wordsFind, `trouble`))
 
 
 
