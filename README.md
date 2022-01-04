@@ -2,7 +2,7 @@
 
 # LAB | JS Functions & Arrays
 
-[![Automated Testing](https://github.com/Labs-IHWDFT/m1_d02-lab-js_functions_and_arrays/actions/workflows/test.yml/badge.svg)](https://github.com/Labs-IHWDFT/m1_d02-lab-js_functions_and_arrays/actions/workflows/test.yml)
+[![Automated Testing](https://github.com/Labs-IHWDFT/m1_d02-lab-js_functions_and_arrays/actions/workflows/test.yml/badge.svg?branch=solution)](https://github.com/Labs-IHWDFT/m1_d02-lab-js_functions_and_arrays/actions/workflows/test.yml)
 <br>
 
 ## Introduction
