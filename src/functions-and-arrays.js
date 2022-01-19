@@ -7,6 +7,7 @@ function maxOfTwoNumbers(num1,num2) {
   }else if (num1===num2){
     return num1 && num2
   }
+  // return Math.max(num1, num2)
 }
 
 maxOfTwoNumbers(7,3);
